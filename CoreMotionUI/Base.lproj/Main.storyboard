@@ -60,7 +60,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.30196078431372547" green="0.27058823529411763" blue="0.39215686274509803" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="i3m-4A-OUh" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="0Zt-er-Hn5"/>
                             <constraint firstItem="Fv1-cG-jmZ" firstAttribute="top" secondItem="i3m-4A-OUh" secondAttribute="bottom" id="23w-s1-tw5"/>
@@ -89,7 +89,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1115" y="430"/>
+            <point key="canvasLocation" x="1010" y="425"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fxo-go-9nL">

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3823F7401A1A1CCB00AE53DE /* SampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3823F73F1A1A1CCB00AE53DE /* SampleCell.swift */; };
 		3825B0B11A1A233700DAC1C2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3825B0B01A1A233700DAC1C2 /* Default-568h@2x.png */; };
+		3825B0C71A1A5F8B00DAC1C2 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3825B0C51A1A5F8B00DAC1C2 /* UIColor+Hex.swift */; };
+		3825B0C81A1A5F8B00DAC1C2 /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3825B0C61A1A5F8B00DAC1C2 /* UIImage+Color.swift */; };
 		385FBEAC1A1993CA00F58190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385FBEAB1A1993CA00F58190 /* AppDelegate.swift */; };
 		385FBEAE1A1993CA00F58190 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385FBEAD1A1993CA00F58190 /* ViewController.swift */; };
 		385FBEB11A1993CA00F58190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385FBEAF1A1993CA00F58190 /* Main.storyboard */; };
@@ -30,6 +32,8 @@
 /* Begin PBXFileReference section */
 		3823F73F1A1A1CCB00AE53DE /* SampleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleCell.swift; sourceTree = "<group>"; };
 		3825B0B01A1A233700DAC1C2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3825B0C51A1A5F8B00DAC1C2 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		3825B0C61A1A5F8B00DAC1C2 /* UIImage+Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Color.swift"; sourceTree = "<group>"; };
 		385FBEA61A1993CA00F58190 /* CoreMotionUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMotionUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		385FBEAA1A1993CA00F58190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		385FBEAB1A1993CA00F58190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 		385FBEA81A1993CA00F58190 /* CoreMotionUI */ = {
 			isa = PBXGroup;
 			children = (
+				3825B0C51A1A5F8B00DAC1C2 /* UIColor+Hex.swift */,
+				3825B0C61A1A5F8B00DAC1C2 /* UIImage+Color.swift */,
 				3825B0B01A1A233700DAC1C2 /* Default-568h@2x.png */,
 				385FBEAB1A1993CA00F58190 /* AppDelegate.swift */,
 				385FBEAD1A1993CA00F58190 /* ViewController.swift */,
@@ -220,6 +226,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				385FBEAE1A1993CA00F58190 /* ViewController.swift in Sources */,
+				3825B0C71A1A5F8B00DAC1C2 /* UIColor+Hex.swift in Sources */,
+				3825B0C81A1A5F8B00DAC1C2 /* UIImage+Color.swift in Sources */,
 				385FBEAC1A1993CA00F58190 /* AppDelegate.swift in Sources */,
 				3823F7401A1A1CCB00AE53DE /* SampleCell.swift in Sources */,
 			);
